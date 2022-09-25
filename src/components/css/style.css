@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.temp-div{
+    background-color: cadetblue;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgb(199, 194, 194);
+   
+   
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 140px;
+    color: aliceblue;
+}
+.input-temp{
+   width: 80%;
+   height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+ cursor: pointer;
+ padding: 15px
+}
+ 
